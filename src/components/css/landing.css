@@ -1,0 +1,167 @@
+/* Main Area */
+@import url('https://fonts.googleapis.com/css2?family=Beth+Ellen&family=Ubuntu&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+#main-area {
+    background: url('../img/landing-bg.jpg') no-repeat center center/cover;
+    max-width: 100% !important;
+    width: 100% !important;
+    height: 75vh !important;
+  }
+  
+  #main-area .main-content{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: left;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    top:10px;
+  }
+  
+  .main-content h3 {
+    font-family: 'Beth Ellen', cursive;
+    color: #FFFFFF;
+    font-size: 40px;
+    margin: 55px 0;
+    line-height: 1.8;
+  }
+  
+  button:active{
+    transform:scale(1.1);
+  }
+  
+  .box-headers{
+    display:flex;
+    flex-direction: row;
+    margin: 0 1rem;
+    align-items: flex-end;
+    padding: 0 10px;
+    right: 300px;
+  }
+  
+  .first .second h5{
+    font-size: 15px;
+    
+  }
+  
+  .first{
+    background-color: rgba(190,157,14, 0.5);
+    padding: 15px;
+    width: 150px;
+    color: #ffffff;
+  }
+  
+  .second a {
+    color: #ffffff;
+    text-decoration: none;
+  
+  }
+  
+  
+  .second{
+    background-color: #EBBA32;
+    padding: 15px;
+    width: 150px;
+    color: #ffffff;
+  }
+  
+  .first .second h5{
+    font-size: 15px;
+  }
+  
+  .box-contents{
+    padding: 57px 32px;
+    margin: 0 2rem;
+  }
+  
+  .main-box{
+    width: 1000px;
+    height: 180px;
+    border-radius: 15px;
+    background-color: rgba(190,157,14, 0.5);
+    align-content: center;
+  }
+  
+  select{
+    padding: 15px 0;
+    outline: none;
+    width: 22%;
+    border-radius: 4px;
+    border: none;
+    color: grey;
+  }
+  
+  input[type='text']{
+    padding: 12px 40px;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+    width: 35%;
+  }
+  
+  input[type='date']{
+    padding: 11px ;
+    outline: none;
+    border-radius: 4px;
+    border: none;
+  }
+  
+  .input-icon i{
+    position: absolute;
+    padding: 15px;
+    color: gray;
+  }
+  
+  .cat {
+    color: grey;
+  }
+  
+  .search-btn {
+    background: #EBBA32;
+    border: none;
+    color: #000000;
+    padding: 15px 40px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+  }
+  
+  .search-btn:hover {
+    background: #bb8a03;
+  }
+  
+  /* Categories */
+  #categories {
+    margin-bottom: 10rem;
+  }
+  #categories .category-header {
+    text-align: center;
+    margin-top: 60px;
+  }
+  
+  .category-header h2 {
+    font-weight: bold;
+  }
+  
+  .category-header p {
+    font-size: 14px;
+    margin-bottom: 50px;
+  }
+  
+  .card-deck .card {
+    margin: 25px 20px;
+    border-radius: 10px;
+  }
+  
+  .card-deck .card .card-title {
+    font-weight: bold;
+  }
+  

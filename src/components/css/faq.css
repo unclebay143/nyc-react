@@ -1,0 +1,39 @@
+/* Main Image Styling */
+#main-image .main-image {
+    text-align: center;
+  }
+  
+  /* Question Styling */
+  main #accordionExample {
+    margin: auto;
+    max-width: 80%;
+    margin-bottom: 100px;
+  }
+  
+  #accordionExample section .card {
+    margin-bottom: 15px;
+    text-align: center;
+  }
+  
+  #accordionExample section .card-header {
+    padding: 22px;
+  }
+  
+  #accordionExample .card button {
+    color: rgba(0, 0, 0, 1);
+  }
+  
+  #accordionExample .card button:hover {
+    text-decoration: none;
+    color: #EBBA32;
+  }
+  
+  #accordionExample .card button:focus {
+    outline: none;
+    border: none;
+  }
+  
+  #accordionExample .card button span {
+    padding-right: 50px;
+    text-align: center;
+  }

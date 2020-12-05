@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:wght@500;600&family=Rubik:wght@300;400&family=Zilla+Slab:wght@500&display=swap');
+
+body {
+    height:100vh;
+    font-family: 'Rubik', sans-serif;
+    line-height: auto;
+    overflow-x: hidden;
+  }
+
+
+  .section-1 {
+    margin: 70px auto;
+    max-width: 85%;
+  }
+  
+  .section-1 .header {
+    font-family: 'EB Garamond', serif;
+    font-size: 40px;
+  }
+  
+  .section-1 .body {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 50px;
+    margin: 50px 0;
+  }
+  
+  .section-1 .body p {
+    font-size: 18px;
+    line-height: 1.7;
+    color: rgb(85, 83, 83);
+  }
+  
+  /* Section-2 Styling */
+  .section-2 {
+    background: rgba(235, 186, 50, 0.15);
+    padding: 50px 0;
+  }
+  
+  .section-2 .pictures-grid {
+    margin: auto;
+    max-width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 15px;
+  }
+  
+  .section-2 .pictures-grid img {
+    max-width: 540px;
+    max-height: 500px;
+  }
+  
+  /* SECTION-3 Styling */
+  .section-3 {
+    background: rgba(235, 186, 50, 0.15);
+    padding: 50px 0;
+  }
+  
+  .about-grid {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    margin: auto;
+    max-width: 85%;
+  }
+  
+  .about-grid .about-header {
+    font-family: 'Zilla Slab', serif;
+  }
+  
+  .about-grid .about-body h2 {
+    font-family: 'Zilla Slab', serif;
+  }
+  
+  .about-grid .about-body p {
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;
+  }
+  
+  /* Section-4 Styling */
+  .section-4 {
+    background: rgba(235, 186, 50, 0.15);
+    padding: 50px 0;
+    margin-bottom: 6rem;
+  }
+  
+  .story-grid {
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    margin: auto;
+    max-width: 85%;
+  }
+  
+  .story-grid .story-header {
+    font-family: 'Zilla Slab', serif;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+  
+  .story-grid .story-body h2 {
+    font-family: 'Zilla Slab', serif;
+    font-size: 25px;
+  }
+  
+  .story-grid .story-body {
+    font-family: 'Rubik', sans-serif;
+    line-height: 2;;
+  }
+  
